@@ -23,7 +23,7 @@ def diagonalDifference(arr):
             a = a + arr[i][i]
             b = b + arr[l][j]
             
-    c = b - a
+    c = abs(a - b)
     return c  
 
 if __name__ == '__main__':
@@ -61,7 +61,7 @@ def diagonalDifference(arr):
             b = b + arr[l][j]
             print(a, 'a')
             print(b, 'b')
-    c = b - a
+    c = abs(a - b)
     return c
 
 
